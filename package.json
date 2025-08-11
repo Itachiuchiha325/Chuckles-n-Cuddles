@@ -1,0 +1,41 @@
+{
+  "name": "little-treasures-backend",
+  "version": "1.0.0",
+  "description": "E-commerce backend for Little Treasures kids store with authentication and image support",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "init-admin": "node scripts/createAdmin.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "kids",
+    "stationery",
+    "bags",
+    "authentication",
+    "otp"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "multer": "^2.0.2",
+    "nodemailer": "^6.9.7",
+    "rate-limit": "^0.1.1",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
