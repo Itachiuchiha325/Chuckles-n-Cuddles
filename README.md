@@ -23,3 +23,5 @@ Backend:Node js
 Database: Mongodb Atlas
 Version Control: Git and GitHub
 
+Future scope : Would able to add images using multer,gateway payment 
+
